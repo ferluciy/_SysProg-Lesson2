@@ -6,6 +6,7 @@ public class Zadanie1 : MonoBehaviour
 {
     public NativeArray<int> Array;
     public string Result;
+
     public struct MyJob : IJob
     {
         public NativeArray<int> Numbers;
