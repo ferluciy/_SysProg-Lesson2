@@ -27,7 +27,7 @@ public class Zadanie1 : MonoBehaviour
         Result = "";
 
         for (int i = 0; i < Array.Length; i++) { Result += Array[i] + " "; }
-        Debug.Log("Массив до: \n" + Result);
+        Debug.Log("Massiv: \n" + Result);
 
         MyJob myJob = new MyJob()
         {
@@ -39,7 +39,7 @@ public class Zadanie1 : MonoBehaviour
 
         Result = "";
         for (int i = 0; i < Array.Length; i++) { Result += Array[i] + " ";}
-        Debug.Log("Массив после: \n" + Result);
+        Debug.Log("Massiv: \n" + Result);
         Array.Dispose();
     }
 }
